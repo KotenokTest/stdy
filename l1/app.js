@@ -8,9 +8,10 @@ if (secs.match("//") == null) {
     text = secs.replace(q, '')
     text = text.replace('?','')
     text = text + "&nbsp;"
-    console.log('djfhcidhfskdfk')
+
 
   } else {text = secs}
+  text = text + "&nbsp;"
 
   first_text.innerHTML = first_text.textContent.replace(' ', '').replace(/\S/g, '<span>'+text+'</span>')
 } else {
