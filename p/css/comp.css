@@ -1,0 +1,44 @@
+.btn{
+    background-color: #ff5441;
+    color: white;
+    display: inline-block;
+
+    padding: 18px 20px;
+    width: 240px;
+    max-width: 100%;
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 18px;
+    border:0px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 0 38px 0 rgba(212,66,50,0.8);
+    letter-spacing: .02em;
+    transition: background .2s;
+}
+
+
+.btn:hover{
+    background: #ec4b38;
+}
+
+.btn:active{
+    opacity: 0.8;
+    transform: scale(.95);
+}
+
+
+.container{
+    padding: 0 15px;
+    width: 1200px;
+    min-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.section-top__btn {
+    display: flex;
+    justify-content: center;
+}
+
