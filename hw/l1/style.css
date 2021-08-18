@@ -117,10 +117,10 @@
   /* width: calc(100% / 3); */
   min-width: 175px;
   max-width: 195px;
+  overflow-x: hidden;
+
   position: relative;
   bottom: 0px;
-
-  overflow-x: hidden;
   transition: all .1s;
 
 }
@@ -144,6 +144,9 @@ bottom: 6px;
   justify-content: center;
 
   margin: 20px 0 10px;
+  height: 20px;
+  width: auto;
+
 }
 
 .box-title{
@@ -169,9 +172,6 @@ bottom: 6px;
 }
 
 
-.box-logo{
-  height: 20px;
-}
 
 
 
