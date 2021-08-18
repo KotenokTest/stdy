@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    line-height: 1.375;
+    color: #1f1f1f;
+    font-size: 16px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+

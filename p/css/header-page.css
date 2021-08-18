@@ -76,9 +76,7 @@
     margin: 0 -15 0 0;
 }
 
-.phone__item{
-    color: #fff;
-}
+
 
 @media(max-width:1200px) {
     .header-page__link{
