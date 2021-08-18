@@ -111,17 +111,30 @@
 
 .a-box{
   margin: 20px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 0px;
   background-color: #fff;
   /* width: calc(100% / 3); */
   min-width: 175px;
-  max-width: 175px;
+  max-width: 195px;
   position: relative;
+  bottom: 0px;
+
+  overflow-x: hidden;
+  transition: all .1s;
+
 }
 
+.a-box:hover{
+box-shadow: 0 0 38px 0 #ccc;
+transform: scale(1.02);
+bottom: 6px;
+}
+
+
+
 .box-line{
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
   border: 0px;
   height: 3px;
 }
