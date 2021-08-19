@@ -1,0 +1,192 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+html,body{
+    height: 100%;
+}
+
+
+.main{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+
+
+.header{
+    background-color: #494d56;
+    border-top: 5px solid aqua;
+}
+
+.c_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 10px 0;
+}
+
+img{
+    width: 35px;
+    height: auto;
+    max-width: 100%;
+}
+
+.pretty{
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: normal;
+
+}
+.docs{
+    color: white;
+    font-weight: bold;
+}
+
+
+.c_title{
+    margin: 0 0 0 10px;
+}
+
+.c_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.575;
+    color: white;
+
+
+}
+
+
+.cc_h{
+    width: 20px;
+    vertical-align: middle;
+
+}
+
+.c_f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+
+
+.section{
+    background-color: #f9f8fd;
+
+    padding: 50px 0 0 0;
+    flex: 1 1 auto;
+
+
+
+}
+
+.s_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.sh_text{
+    margin: 30px 0 ;
+}
+
+
+
+.sh_b{
+    background-color: aqua;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+
+.wrp{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+
+
+.s_content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 80px;
+    
+}
+
+.s_item{
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    min-height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 15px;
+    border-top: 3px solid;
+}
+
+.s_item:nth-child(n+4){
+    margin: 15px 15px 0;
+}
+
+.s_item:nth-child(-n+3){
+    margin: 0 15px 15px;
+}
+
+
+.ss_c{
+    text-align: center;
+}
+.ss_t{
+    margin: 10px 0 15px;
+}
+.ss_tt{
+    font-size: 20px;
+}
+
+.f{
+    background-color: #28292b;
+}
+
+.f_w{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.btn{
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+
+}
+
+
+
