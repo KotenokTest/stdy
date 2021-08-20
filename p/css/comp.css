@@ -56,7 +56,6 @@
 
 
 .phone__item{
-    margin-right: 20px;
     font-weight: 900;
     font-family: 'Montserrat' sans-serif;
 
@@ -196,6 +195,7 @@
 
     .catalog_item{
         width: 50%;
+        margin: 0 auto 50px ;
     }
     .catalog_item:nth-of-type(odd)::before{
         content: none
@@ -210,14 +210,40 @@
 @media(max-width:767px){
 
     .catalog_item{
-        width: 100%;
-        margin: 0 0 50px 0;
+        width: 58%;
+        margin: 0 auto 50px ;
     }
     .catalog_item::before{
         content: none
     }
+    .catalog_product{
+        width: 350px;
+        min-width: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .catalog_item:last-child{
+    }
+    .catalog_item:last-child .catalog_product{
+        border: 0;
+        padding: 0;
+    }
+
 
 }
 
+.f{
+    background-color: #1f1f1f;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Montserrat';
+    color: white
+}
 
+.f__container{
+    display: flex;
+    justify-content: center;
+}
 

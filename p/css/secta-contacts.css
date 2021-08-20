@@ -1,0 +1,99 @@
+.section__contant{
+    overflow: hidden;
+}
+
+.sc__container{
+    position: relative;
+}
+
+
+
+.sc__img{
+    position: absolute;
+    background: no-repeat;
+    background-size: cover;
+    width: 672px;
+    height: 397px;
+    right: -350px;
+    bottom: -100px;
+    z-index: -10;
+
+}
+
+.sc__title{
+    margin: 70px 0 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Montserrat'; font-weight: 900;
+
+
+
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+}
+
+.contacts__start{
+    width: 50%;
+}
+
+
+.contacts__end{
+    width: 50%;
+    padding: 0 0 0 50px;
+
+}
+
+.map{
+    height: 450px;
+    background-color: #aaa;
+}
+
+.contacts__title{
+    margin: 0 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    
+
+}
+
+.contacts__text{
+    margin: 0 0 40px;
+    font-size: 18px;
+    
+}
+
+
+.links{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+
+}
+
+
+.s__item{
+    margin: 0 5px;
+}
+
+
+.c_phone{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.c_phone:hover{
+    color: #ffa650;
+}

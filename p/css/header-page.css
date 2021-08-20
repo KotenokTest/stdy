@@ -91,9 +91,11 @@
 
 }
 
+
 @media(max-width:992px) {
     .header-page__nav{
         display: none;
+        
     }
     .header-page__burger{
         display: block;
