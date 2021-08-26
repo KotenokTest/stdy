@@ -2,26 +2,6 @@ const p = console.log
 const a = alert
 const po = prompt
 
-// function getDivisors(num) {
-//   temp = []
-//   key = 0
-//   while (key!=num+1){
-//     key++
-//     if (num%key == 0){
-//       temp.push(key)
-//     }
-//   }
-//   return temp
-//
-// }
-//
-//
-//
-// while (true) {
-//   inp = Number(po("Введите число"))
-//   ret = getDivisors(inp)
-//   a(`Число ${inp} делится на: ${ret.join(", ")}`)
-// }
 
 var hrf = location.href
 var q = hrf.substring(hrf.indexOf("?")+1)
@@ -34,9 +14,10 @@ if (q == "new") {
   login = po("Придумайте ваш логин")
   pswd = po("Придумайте пароль")
   data = `${name}|${pswd}`
-  if (data == "null|null"){""}
+  if (data == "null|null"){a("Ошибка создания аккаунта"); p(data)}
   else{
     localStorage.setItem(login, data)
+    a("Аккаунт создан")
 
   }
 
